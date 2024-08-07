@@ -25,7 +25,11 @@
     }
   }
   /*houdini*/
-  
+  *{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
   /*base*/
   :root {
     font-family: 'Karla';
@@ -57,7 +61,7 @@
   }
   
   .wrapper {
-    width: 100%;
+    width: 100vw;
     height: auto;
     position: relative;
   }
