@@ -128,6 +128,7 @@
     text-align: center;
     mix-blend-mode: difference;
     -webbkit-mix-blend-mode: difference;
+filter : invert(1);
   }
   
   .h1--scalingSize {
